@@ -6,14 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Assets\test.html" />
-	<Content Include="Assets\style.css" />
-  </ItemGroup>
-
-  <!--<ItemGroup>
 	<EmbeddedResource Include="Assets\test.html" />
-    <EmbeddedResource Include="Assets\style.css" />
-  </ItemGroup>-->
+  </ItemGroup>
 
   <ItemGroup>
 	  <PackageReference Include="Uno.WinUI.WebAssembly" Version="4.6.39" />

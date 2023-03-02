@@ -13,25 +13,5 @@
         <TextBlock FontSize="20">Test Framework Element</TextBlock>
         <html:HtmlTest/>
         
-        <!--<TextBlock FontSize="20">HtmlTimePicker <Span FontWeight="Bold">&lt;input type='time' /&gt;</Span></TextBlock>
-        <html:HtmlTimePicker HorizontalAlignment="Left" x:Name="time1" />
-        <html:HtmlTimePicker HorizontalAlignment="Left" x:Name="time2" Time="{Binding Time, ElementName=time1, Mode=TwoWay}" />
-
-        <TextBlock FontSize="20">HtmlDatePicker <Span FontWeight="Bold">&lt;input type='date' /&gt;</Span></TextBlock>
-        <html:HtmlDatePicker HorizontalAlignment="Left" x:Name="date1" />
-        <html:HtmlDatePicker HorizontalAlignment="Left" x:Name="date2" Date="{Binding Date, ElementName=date1, Mode=TwoWay}" />
-
-        <TextBlock FontSize="20">HtmlNumberInput <Span FontWeight="Bold">&lt;input type='number' /&gt;</Span></TextBlock>
-        <html:HtmlNumberInput HorizontalAlignment="Left" x:Name="number1" />
-        <html:HtmlNumberInput HorizontalAlignment="Left" x:Name="number2" Value="{Binding Value, ElementName=number1, Mode=TwoWay}" />
-
-        <TextBlock FontSize="20">HtmlColorPicker <Span FontWeight="Bold">&lt;input type='color' /&gt;</Span></TextBlock>
-        <html:HtmlColorPicker HorizontalAlignment="Left" x:Name="color1" />
-        <html:HtmlColorPicker HorizontalAlignment="Left" x:Name="color2" Color="{Binding Color, ElementName=color1, Mode=TwoWay}" />
-
-        <TextBlock FontSize="20">HtmlRangeInput <Span FontWeight="Bold">&lt;input type='range' /&gt;</Span></TextBlock>
-        <html:HtmlRangeInput HorizontalAlignment="Left" x:Name="range1" />
-        <html:HtmlRangeInput HorizontalAlignment="Left" x:Name="range2" Value="{Binding Value, ElementName=range1, Mode=TwoWay}" />-->
-
     </StackPanel>
 </Page>
