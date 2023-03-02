@@ -9,7 +9,11 @@
     mc:Ignorable="d">
 
     <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="20" Spacing="6">
-        <TextBlock FontSize="20">HtmlTimePicker <Span FontWeight="Bold">&lt;input type='time' /&gt;</Span></TextBlock>
+
+        <TextBlock FontSize="20">Test Framework Element</TextBlock>
+        <html:HtmlTest/>
+        
+        <!--<TextBlock FontSize="20">HtmlTimePicker <Span FontWeight="Bold">&lt;input type='time' /&gt;</Span></TextBlock>
         <html:HtmlTimePicker HorizontalAlignment="Left" x:Name="time1" />
         <html:HtmlTimePicker HorizontalAlignment="Left" x:Name="time2" Time="{Binding Time, ElementName=time1, Mode=TwoWay}" />
 
@@ -27,6 +31,7 @@
 
         <TextBlock FontSize="20">HtmlRangeInput <Span FontWeight="Bold">&lt;input type='range' /&gt;</Span></TextBlock>
         <html:HtmlRangeInput HorizontalAlignment="Left" x:Name="range1" />
-        <html:HtmlRangeInput HorizontalAlignment="Left" x:Name="range2" Value="{Binding Value, ElementName=range1, Mode=TwoWay}" />
+        <html:HtmlRangeInput HorizontalAlignment="Left" x:Name="range2" Value="{Binding Value, ElementName=range1, Mode=TwoWay}" />-->
+
     </StackPanel>
 </Page>
